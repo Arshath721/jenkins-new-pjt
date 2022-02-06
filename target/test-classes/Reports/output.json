@@ -1,0 +1,363 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 822679700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User must be in facebook login page",
+            "match": {
+              "location": "StepDefinition.user_must_be_in_facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-08T13:53:13.080Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2409352100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchTheBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 135436000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserMaximized()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4492199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeImplicitWait()"
+            }
+          },
+          {
+            "result": {
+              "duration": 55200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.smokeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To validate using valid username and invalid password",
+        "description": "",
+        "id": "to-validate-login-functionally-of-fb;to-validate-using-valid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 47000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.smokeSenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 30800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.screenshotBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 688831100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserQuit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 102351699,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter invalid username and invalid password",
+            "match": {
+              "location": "StepDefinition.user_enter_invalid_username_and_invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "pass",
+                  "email",
+                  "phno"
+                ]
+              },
+              {
+                "cells": [
+                  "greens",
+                  "greens@123",
+                  "greens@gmail.com",
+                  "9876543210"
+                ]
+              },
+              {
+                "cells": [
+                  "java",
+                  "java@123",
+                  "java@gmail.com",
+                  "8765432109"
+                ]
+              },
+              {
+                "cells": [
+                  "python",
+                  "python@123",
+                  "python@gamil.com",
+                  "7654321098"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48701600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click login button",
+            "match": {
+              "location": "StepDefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 323900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User must be in invalid login page",
+            "match": {
+              "location": "StepDefinition.user_must_be_in_invalid_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginUsingTable"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 761275700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User must be in facebook login page",
+            "match": {
+              "location": "StepDefinition.user_must_be_in_facebook_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-08T13:53:17.315Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1122915500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchTheBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 120611500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserMaximized()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3892701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeImplicitWait()"
+            }
+          },
+          {
+            "result": {
+              "duration": 57999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.sanityScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.regressionScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To validate forgot password function",
+        "description": "",
+        "id": "to-validate-login-functionally-of-fb;to-validate-forgot-password-function",
+        "after": [
+          {
+            "result": {
+              "duration": 75001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.sanitySenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 56999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.regressionSenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 39900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.screenshotBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 604183800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserQuit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3990522401,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click forgot password button",
+            "match": {
+              "location": "StepDefinition.user_click_forgot_password_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56445800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter values to text box",
+            "match": {
+              "location": "StepDefinition.user_enter_values_to_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56867000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click search button",
+            "match": {
+              "location": "StepDefinition.user_click_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginUsingTable"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionally of FB",
+    "description": "",
+    "id": "to-validate-login-functionally-of-fb",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/FbLogin.feature",
+    "tags": [
+      {
+        "name": "@LoginUsingTable",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
